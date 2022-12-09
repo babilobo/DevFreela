@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500;600;800&display=swap');
+
+.bl-wrapper > .bl-cabecalho{
+    height: 92px;
+    width: 100%;
+    background: rgb(255, 255, 255);
+    color: blue;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.473);
+}
+
+.bl-cabecalho > .wrapper{
+    max-width: var(--bl-main--wrapper);
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;  
+}
+
+.user{
+
+}
+
+
+.info{
+   
+   text-align: right;
+
+}
+
+.nomeusuario{
+    font-weight: 800;
+    font-size: 14px;
+    color: #000;
+    display: block;
+    margin-top: 7px;
+}
+
+.ocupacao{
+    font-weight: 400;
+    font-size: 12px;
+    color: #767684;
+    font-family: 'Raleway', sans-serif;
+}
+
+.photouser{
+    height: 32px;   
+    width: 32px;
+    margin-left: 70px;
+}

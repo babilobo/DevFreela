@@ -1,0 +1,28 @@
+.maininput{
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    border: none;
+    background: none;
+    border-bottom: 1px solid var(--bl-color-lightgray);
+    outline: none;
+    padding-bottom: 5px;
+    width: 100%;
+    margin-bottom: 32px;
+   
+}
+
+.maininput:focus{
+    border-bottom: 1px solid var(--bl-color-primary);
+    outline: none;
+}
+
+.maininput:hover{
+    border-bottom: 1px solid var(--bl-color-primary);
+    outline: none;
+    transition: border-color 0.7s;
+
+}
+
+.maininput::placeholder{
+    color: var( --bl-color-gray);
+}

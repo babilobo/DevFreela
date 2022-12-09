@@ -1,0 +1,19 @@
+.botao{
+    background-color: #ce0606;
+    color: var(--bl-color-lighter);
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    padding: 20px 80px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 50px;
+    margin-left:28%;
+  
+}
+
+.botao:hover{
+   background-color: var(--bl-color-primary-lighter);
+   transition: background-color 0.5s;
+}

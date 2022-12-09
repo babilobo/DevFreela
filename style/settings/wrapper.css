@@ -1,0 +1,11 @@
+:root{
+    --bl-main--wrapper: 1366px;
+}
+
+.teste {
+    width: var(--bl-main--wrapper);
+}
+
+.logo{
+    margin: 0 auto;
+}

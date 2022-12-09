@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500;600;800&display=swap');
+
+.bl-login > .bl-wrapper{
+    max-width:var(--bl-main--wrapper);
+    
+    margin: 0 auto;
+    color: aliceblue;
+}
+
+.bl-login > .bl-wrapper > .bl-cabecalho{
+    height: 92px;
+    width: 100%;
+    background: white;
+    color: blue;
+    position: fixed;
+    left: 0;
+    top: 0;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.473);
+}
+
+.bl-login > .bl-wrapper > .bl-cabecalho > .wrapper{
+    max-width: var(--bl-main--wrapper);
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+
+    
+}
+
+.bl-login > .bl-wrapper > .principal{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 92px;
+ 
+}
+
+//*.bl-login > .bl-wrapper > .principal > .left{
+     padding-top: 48px;
+     color: black;
+     max-width: 490px;
+     margin: 0 auto;
+    
+}*/
+
+
+/*.bl-login > .bl-wrapper > .principal> .right{
+     overflow: hidden;
+     position: relative;
+     
+}*/
+
+.bl-login > .bl-wrapper > .principal> .right > .image{
+    height: 100%;
+    position: absolute;
+    min-width: 100%;
+}
+
+.passoumdedois{
+    margin-bottom:10px;
+    color:#b8b7b7;
+    font-weight: 700;
+    display: block;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.eusou{
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 18px;
+    margin-top: 40px;
+}
+
+.up{
+    font-weight: 700;
+    font-size: 48px;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.down{
+    font-weight: 700;
+    font-size: 32px;
+    
+}
